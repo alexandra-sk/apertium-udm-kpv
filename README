@@ -30,10 +30,10 @@ The test sentences can be tested with command:
 
 The current result is:
 
-    Пон керкаӧ мунӧ. Пон керкасӧ аддзӧ. Кань понйысь/понмысь пышйӧ.Кань понлысь \*кышке.
+    Пон керкаӧ мунӧ. Пон керкасӧ аддзӧ. Кань понйысь/понмысь пышйӧ. Кань понлысь \*кышке.
 
 The only error is that currently, for an unknown reason, the system doesn't
-recognize the verb *кошкыны* 'to be afraid'. However, more relevant for this
+recognize the verb *кошканы* 'to be afraid'. However, more relevant for this
 experimental setup is that it illustrates how the case system in both languages
 works in very comparable manner. The resulting Komi sentences are grammatically
 correct, but do have somewhat unusual word order.
