@@ -11,6 +11,33 @@ Komi-Zyrian. What you can use this language package for:
 For information on the latter two points, see subheading "For more
 information" below
 
+Notes on this version
+===============================================================================
+This is Alexandra Kellner's implementation that has improved lexicon, and which
+is tested with the sentences below, which demonstrate some of the typical differences
+between Udmurt and Komi. The translations are not intended to be correct, but to
+raise different questions.
+
+In this preliminary phase extensive addition of lemmas is not done, since  
+this can be done more automatically by converting the existing resources.
+
+Test sentences
+===============================================================================
+
+The test sentences can be tested with command:
+
+    echo "Пуны коркае мынэ. Пуны корказэ адӟе. Коӵыш пуныысь пегӟе. Коӵыш пунылэсь кышке".| apertium -d . udm-kpv
+
+The current result is:
+
+    Пон керкаӧ мунӧ. Пон керкасӧ аддзӧ. Кань понйысь/понмысь пышйӧ.Кань понлысь \*кышке.
+
+The only error is that currently, for an unknown reason, the system doesn't
+recognize the verb *кошкыны* 'to be afraid'. However, more relevant for this
+experimental setup is that it illustrates how the case system in both languages
+works in very comparable manner. The resulting Komi sentences are grammatically
+correct, but do have somewhat unusual word order.
+
 Requirements
 ===============================================================================
 
